@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: auto auto;
+    text-align: center;
+    gap: 40px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamForm {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamForm > label {
+    font-size: 10px;
+    text-align: start;
+}
+
+.teamForm > input {
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: rgb(130, 186, 255);
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}

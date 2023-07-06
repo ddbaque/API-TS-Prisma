@@ -27,11 +27,10 @@ export const getTeamById = async (req: Request, res: Response) => {
 
 export const createTeam = async (req: Request, res: Response) => {
     console.log("Hola",req.body)
-    /* const newProduct = await prisma.team.create({
+    const newProduct = await prisma.team.create({
         data: req.body,
     });
-    res.json(newProduct); */
-    res.json({})
+    res.json(newProduct); 
 };
 
 export const updateTeamById = async (req: Request, res: Response) => {
